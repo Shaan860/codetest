@@ -1,0 +1,83 @@
+.card-parent{
+    display: flex;
+    box-shadow: none;
+}
+mat-card:not([class*=mat-elevation-z]) {
+  box-shadow: none
+}
+
+.item {
+    flex-grow: 1;
+    height: 100px;
+  }
+  
+  .item + .item {
+    margin-left: 2%;
+  }
+.example-card {
+    max-width: 350px;
+  }
+  
+  .example-header-image {
+    background-size: cover;
+  }
+
+  .model-name{
+    font-weight: 600;
+    color:black;
+    margin-left: -16px;
+  }
+  mat-card-title{
+    margin: 4px -16px;
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+  }
+  mat-card-subtitle{
+    padding-bottom: 20px;
+  }
+  .learn-shop-link{
+     justify-content: center;
+  }
+  .learn-shop-link > a {
+    text-decoration: none;
+    color: #0a71a8;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 25px;
+  }
+  .link{
+    padding: 0 4px 0 4px;
+  }
+  .all-products{
+    text-align: center;
+  }
+  
+  mat-icon{
+    width: 12px;
+    height: 21px;
+    vertical-align: sub;
+  }
+  .body-container{
+    margin: 0 20px 0 20px; 
+  }
+
+  @media (max-width: 800px){
+    .example-card {
+        max-width: 450px;
+      }
+    .model-name{
+    font-weight: 600;
+    color: black;
+    font-size: 25px;
+    display: block;
+    }
+    mat-card-title{
+      font-size: 20px;
+      font-weight: 500;
+      
+    }
+    .model-sub-name{
+      margin-left: -16px;
+    }
+  }

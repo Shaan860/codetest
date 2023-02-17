@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as StyleProvider  from 'vcc-ui';
 
 @Component({
   selector: 'app-root',
